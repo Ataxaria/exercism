@@ -26,7 +26,6 @@ int modifier(int score)
     return score / 2 - 5;  // nicer than the spec because it avoids the math.floor function
 }
 
-
 /* 
     pointer to struct typecasted to type of first member
     this holds because pointer to struct is equal to pointer to its first member
