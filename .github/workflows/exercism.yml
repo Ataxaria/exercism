@@ -2,7 +2,7 @@ name: Auto Merge Exercism Solutions
 
 on:
   pull_request:
-    types: [opened]
+    types: [opened, synchronize, labeled]
 
 permissions:
   pull-requests: write
